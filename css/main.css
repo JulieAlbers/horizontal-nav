@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Bevan', cursive;
-  background-color: #fff;
+  background-color: #dbd6cf;
   line-height: 1.5;
 }
 
@@ -9,21 +9,45 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
-  background-color: #79756f
+  background-color: #79756f;
+  border: 3px solid #595652;
+  padding-bottom: .5em;
 }
 
 h1 {
   text-align: center;
   color: #fff;
+  margin: 0.3em;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
 }
 
 nav li {
   display: inline-block;
+}
+
+nav li a {
+  display: inline-block;
   background-color: #713837;
   color: #fff;
-  padding: .5em .6em;
-  margin: .3em;
-  border-radius: 5px;
+  padding: .75em;
+  margin-top: .3em;
+  border-radius: 3px;
   font-family: sans-serif;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #f33;
 }
