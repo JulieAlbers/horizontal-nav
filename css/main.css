@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Bevan', cursive;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #79756f
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #713837;
+  color: #fff;
+  padding: .5em .6em;
+  margin: .3em;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
