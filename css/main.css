@@ -43,7 +43,7 @@ nav li a {
   display: inline-block;
   background-color: #713837;
   color: #fff;
-  padding: .75em;
+  padding: .6em .75em;
   margin-top: .3em;
   border-radius: 3px;
   font-family: sans-serif;
